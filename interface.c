@@ -18,7 +18,7 @@ if(option==1)
     scanf("%s",name);
     fprintf(us, "%s\n", name);
     fclose(us);
-
+//>>>>>>>>>>>>>>>>>>>>>>>>>
     pw=fopen("password.txt","a");
     printf("Enter your password\n" );
     scanf("%s",passw);
