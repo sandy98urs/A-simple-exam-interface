@@ -9,16 +9,16 @@ FILE *us,*pw,*ques,*ans;
 char name[20],passw[20],name1[20],passw1[20],name2[20],passw2[20],answ1[100],ques1[100],answ2[100];
 int option,count=0,count1=0;
 printf(" \t\t\t#      #  ######  #       ######  ######  ###  ###  ######\n");
-Sleep(200);
+Sleep(300);
 printf(" \t\t\t#      #  #       #       #       #    #  #  ##  #  #\n");
-Sleep(200);
+Sleep(300);
 printf(" \t\t\t#      #  ######  #       #       #    #  #      #  ######\n");
-Sleep(200);
+Sleep(300);
 printf(" \t\t\t#  ##  #  #       #       #       #    #  #      #  #\n");
-Sleep(200);
+Sleep(300);
 printf(" \t\t\t##    ##  ######  ######  ######  ######  #      #  ######\n");
 
-Sleep(700);
+Sleep(1000);
 
 printf("\nEnter \n1.\tTo sign up\n2.\tTo sign in\n\n");
 scanf("%d",&option );
@@ -91,12 +91,12 @@ printf("\n\n|--------------------------------------------------------|\n");
 printf("| Test begins......!!!!!                                 |\n");
 printf("| All the best ......!!!!!                               |\n");
 printf("|--------------------------------------------------------|\n\n\n");
-Sleep(1000);
+Sleep(2000);
 ques=fopen("questions.txt","r");
 ans=fopen("answers.txt","r");
 
-printf("Enter options only i.e either A or B\n\n\n");
-Sleep(1000);
+printf("Enter options only i.e either A or B\n\11n\n");
+Sleep(2000);
 
 while(!feof(ques) && !feof(ans))
 {
@@ -125,6 +125,7 @@ while(!feof(ques) && !feof(ans))
   count1++;
 }
   Sleep(2000);
+  printf("\n\n" );
 printf(" ############################################################\n");
 Sleep(200);
 printf(" #                                                          #\n");
