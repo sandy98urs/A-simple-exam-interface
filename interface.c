@@ -7,21 +7,26 @@
 int main() {
 FILE *us,*pw,*ques,*ans;
 char name[20],passw[20],name1[20],passw1[20],name2[20],passw2[20],answ1[100],ques1[100],answ2[100];
-int option,count=0;
+int option,count=0,count1=0;
 printf(" \t\t\t#      #  ######  #       ######  ######  ###  ###  ######\n");
+Sleep(200);
 printf(" \t\t\t#      #  #       #       #       #    #  #  ##  #  #\n");
+Sleep(200);
 printf(" \t\t\t#      #  ######  #       #       #    #  #      #  ######\n");
+Sleep(200);
 printf(" \t\t\t#  ##  #  #       #       #       #    #  #      #  #\n");
+Sleep(200);
 printf(" \t\t\t##    ##  ######  ######  ######  ######  #      #  ######\n");
 
-Sleep(500);
+Sleep(700);
 
 printf("\nEnter \n1.\tTo sign up\n2.\tTo sign in\n\n");
 scanf("%d",&option );
 
-Sleep(500);
+
 if(option==1)
   {
+    Sleep(500);
     printf("\n|--------------------------------------------------------|\n");
 
     printf("|  SIGN UP                                               |\n");
@@ -43,9 +48,10 @@ if(option==1)
     printf("|--------------------------------------------------------|\n");
     printf("| Signed up successfully  :)                             |\n" );
     printf("|--------------------------------------------------------|\n\n");
+Sleep(500);
 }
 
-Sleep(2000);
+Sleep(500);
 
     printf("\n\n|--------------------------------------------------------|\n");
     printf("| SIGN IN                                                |\n");
@@ -82,17 +88,21 @@ label:  fclose(us);
         fclose(pw);
         Sleep(1000);
 printf("\n\n|--------------------------------------------------------|\n");
-printf("| Exam begins......!!!!!                                 |\n");
+printf("| Test begins......!!!!!                                 |\n");
 printf("| All the best ......!!!!!                               |\n");
 printf("|--------------------------------------------------------|\n\n\n");
 Sleep(1000);
 ques=fopen("questions.txt","r");
 ans=fopen("answers.txt","r");
 
+printf("Enter options only i.e either A or B\n\n\n");
+Sleep(1000);
+
 while(!feof(ques) && !feof(ans))
 {
   fscanf(ques,"%s",ques1);
-  printf("\n%s\n",ques1 );
+  printf("\n%s\n\n",ques1 );
+  Sleep(500);
   fscanf(ques,"%s",ques1);
   printf("%s\n",ques1 );
   fscanf(ques,"%s",ques1);
@@ -112,14 +122,21 @@ while(!feof(ques) && !feof(ans))
     printf("Your answer is wrong :( \n\n");
 
   }
+  count1++;
 }
   Sleep(2000);
 printf(" ############################################################\n");
+Sleep(200);
 printf(" #                                                          #\n");
+Sleep(200);
 printf(" #                                                          #\n");
-printf(" #\t YOUR SCORE IS %d                                    #\n",count);
+Sleep(200);
+printf(" #               YOUR SCORE IS %d OUT OF %d                  #\n",count,count1);
+Sleep(200);
 printf(" #                                                          #\n");
+Sleep(200);
 printf(" #                                                          #\n");
+Sleep(200);
 printf(" ############################################################\n");
 
 return 0;
