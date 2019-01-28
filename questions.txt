@@ -1,2 +1,6 @@
-1.Which_is_the_capital_of_Karnataka?
-2.Which_is_the_indian_currency?
+1.Which_is_the_capital_city_of_Karnataka?
+Bengaluru
+Mysuru
+2.Which_is_the_currency_of_India?
+Dollar
+Ruppee
