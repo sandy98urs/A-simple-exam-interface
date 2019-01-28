@@ -95,7 +95,7 @@ Sleep(2000);
 ques=fopen("questions.txt","r");
 ans=fopen("answers.txt","r");
 
-printf("Enter options only i.e either A or B\n\11n\n");
+printf("Enter options only i.e either A or B\n\n\n");
 Sleep(2000);
 
 while(!feof(ques) && !feof(ans))
