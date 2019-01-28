@@ -16,11 +16,12 @@ internet connection. 
 interface.
 
  Procedure:
+
     1. The participant needs to sign up initially by selecting his username and creating a password .
 
     2. He/she must verify his/her username and password in order to take
     the test.
-    
+
     3. After verification he/she will be asked questions , for each right
     answers he/she will be awarded 5 points and the result will be
     displayed after the completion of the test.
