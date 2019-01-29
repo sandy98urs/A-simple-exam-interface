@@ -110,6 +110,7 @@ while(!feof(ques) && !feof(ans))
 
   printf("\nyour answer:\t");
   scanf("%s",answ1);
+  strupr(answ1);
   fscanf(ans,"%s",answ2);
   if(strcmp(answ1,answ2)==0)
   {
@@ -124,6 +125,8 @@ while(!feof(ques) && !feof(ans))
   }
   count1++;
 }
+fclose(ques);
+fclose(ans);
   Sleep(2000);
   printf("\n\n" );
 printf(" ############################################################\n");
