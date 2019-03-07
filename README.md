@@ -5,7 +5,9 @@ ABSTRACT
 
  Introduction:
 
-    Online examination is conducting a test online to measure the knowledge of the participants on a given topic. In the olden days everybody had to gather in a classroom at the same time to take an exam. With online examination students can do the exam online, in their own time and with their own device, regardless where they life. You online need a browser and internet connection. 
+    * Online examination is conducting a test online to measure the knowledge of the participants on a given topic. 
+    * In the olden days everybody had to gather in a classroom at the same time to take an exam. 
+    * With online examination students can do the exam online, in their own time and with their own device, regardless where they life.       * You online need a browser and internet connection. 
 
  Problem statement:
 
